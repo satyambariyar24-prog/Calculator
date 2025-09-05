@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cal{
+    display: flexbox;
+    border: 2px solid black;
+
+}
+button{
+    height: 50px;
+    width: 41px;
+}
+.butt{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+button:hover{
+   box-shadow: 2px 2px 2px black;
+   transition:all;
+}
